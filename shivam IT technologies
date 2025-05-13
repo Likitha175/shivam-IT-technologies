@@ -1,0 +1,1395 @@
+#shivam IT technologies
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam IT Technologies</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+    <img src="img/img1.png" alt="company logo" width="50px">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <button type="small">Call Us</button>
+    </header>
+    <section id="li">
+        <h1 class="c">Transforming Ideas <br>Into Digital <br>Solutions</h1>
+        <h3>Your Trusted Partner For IT Services and Solutions </h3>
+        <button type="submit"><a href="./services.html">Get Started</a></button>
+    <div class="B">
+       <div class="b">
+          <h3>Web & Software Development</h3>
+          <p class="p">Custome Websites and Software's<br>tailored for you</p>
+       </div>
+        <div class="b">
+            <h3>Mobile Apps</h3>
+            <p class="p">Innovative mobile applications for<br>seamless experiences</p>
+        </div>
+        <div class="b">
+            <h3>Digital Marketing</h3>
+            <p class="p">Expert Digital Marketing to boost<br>your brand</p>
+        </div>
+        </div>
+    </section>
+    <section class="E">
+       <div class="i">
+         <h1 class="ch">Your Trusted IT<br> Solutions Partner</h1>
+         <button class="one" type="submit"><a href="./about.html">Know More!</a></button>
+       </div>
+       <div class="A">
+         <p1>Shivam IT Technologies offers top-notch<br>services in design,development,testing,<br>and development,ensuring exceptional <br>solutions for your business needs in <br>Hyderabad,Telanga.</p1>
+        <div class="a">
+            <div class="it">
+           <h1 class="no">150+</h1>
+           <p1>Innovative Solutions</p1>
+        </div>
+        <div class="it">
+           <h1 class="no">15</h1>
+           <p1>Trusted by Clients</p1>
+        </div>
+        </div>
+        </div>
+    </section>
+    <img src="img/img2.avif" width="100%">
+</section>
+    <section class="D">
+        <h1 class="d">Our Services</h1>
+        <p>Comprehensive IT solutions for design,development,testing and<br>deployment tailored to your needs</p>
+    <div class="e">
+        <div class="f">
+            <img src="img/img3.avif" width="100%">
+            <h3>Web Development</h3>
+            <p5> Creating responsive websites and<br> applications that enhance user <br>experience and engagement.</p5>
+        </div>
+        <div class="f">
+            <img src="img/img4.avif" width="100%">
+            <h3>Mobile Apps</h3>
+            <p5>Developing innovative mobile<br>applications to connect <br>with your  audience on to go.</p5>
+        </div>
+        <div class="f">
+            <img src="img/img5.avif" width="100%">
+            <h3>Digital Marketing</h3>
+            <p5>Expert digital marketing <br>strategies to boost your<br> online presence and drive traffic.</p5>
+        </div>
+    </div>
+    <button class="three" type="submit"><a href="./services.html">Know More!</a></button>
+    </section><br><br>
+    <section class="F">
+        <img src="img/img6.avif" width="70%">
+        <div class="g">
+            <p>★★★★★ <br><br>Shivam IT Technologies delivered exceptional service, transforming our ideas into a stunning web application seamlessly.</p>
+            <img  class="G" src="img/img7.avif" width="50px" height="50px">
+            <p>Rajesh kumar</p>
+        </div>
+    </section><br><br>
+    <section class="H">
+        <h1 class="h">Contact Us</h1>
+        <p class="p1">Get in touch for IT services and solutions in Hyderabad.</p>
+        <div class="I">
+            <form>
+                <label for="name"> Your First Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your first name"><br><br>
+                <label for="email"> Your Email Address*</label>
+                <input type="text" name="email" id="email-support" placeholder="Enter your email address"><br><br>
+                <label for="message">Your message</label>
+                <textarea id="message" name="message" placeholder="Enter text here..."></textarea><br>
+                <button class="eight" type="submit">Submit Your Inquiry</button>
+            </form>
+        </div>
+    </section><br>
+    <footer class="J">
+        <div class="j">
+          <h3>Innovative</h3>
+          <p2 class="footer-text">Leading IT services for design and development.</p2><br><br><br>
+          <p2 class="footer-text">© 2025. All rights reserved. Powered by <a id="nn" href="https://novelsky.tech/">NOVELSKY.TECH</a></p2>
+        </div>
+        
+        <div class="j">
+          <h3>Connect</h3>
+          <p2 class="footer-text">+91 70756 99181</p2><br>
+          <a class="aa" href="shivamittechnologies@gmail.com">shivamittechnologies@gmail.com</a>
+        </div>
+        <div class="j">
+          <h3>Support</h3>
+          <form>
+            <label for="support-email">Your Email Address*</label>
+            <input  class="gg"type="email" id="support-email" name="email" placeholder="Enter your email address"><br><br>
+            <button  class="two" type="submit">Submit Your Inquiry</button>
+          </form>
+        </div>
+        
+    </footer>
+    
+</body>
+</html>
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-family: sans-serif;
+}
+header{
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav a{
+    color:black;
+    text-decoration:none;
+}
+button{
+    background-color: black;
+    color: white;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 10%;
+    font-size: 16px;
+}
+
+  
+#li{
+    text-align: center;
+    background-image:linear-gradient(to right bottom,rgb(253, 106, 52),rgb(82, 67, 67));
+    color:#fff;
+}
+.B{
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.b{
+    margin: 20px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.c{
+    font-size: 65px;
+}
+.i{
+    padding: 10px;
+}
+.E{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.a{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+}
+.D{
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.87);
+}
+.d{
+    font-size: 60px;
+     color: #fff;
+}
+p{
+    color:#fff;
+}
+.f{
+    color:black;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: white;
+
+}
+.e{
+    display: flex;
+    flex-direction: row;
+    
+}
+.it{
+   text-align: center;
+}
+.no{
+    color: chocolate;
+    font-size: 40px;
+}
+.p{
+    color:black;
+}
+.p1{
+    color: black;
+}
+.g{
+    background-color: orangered;
+    padding: 40px;
+   
+}
+.F{
+    display: flex;
+    text-align: center;
+} 
+.G{
+    border-radius: 50%;
+} 
+.h{
+   font-size: 40px;
+   text-align: center; 
+} 
+.p1{
+  color:black;
+  text-align: center;
+}  
+.I{
+    text-align: center;
+}
+.eight{
+    background-color: #c16b25;
+    border-radius: 18px;
+    color: white;
+    padding:  10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    font-size: 16px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid chocolate;
+    border-radius: 15px;
+}
+textarea{
+    height: 120px;
+}
+.one{
+    
+    color: white;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+}
+.two{
+    background-color:chocolate;
+    color: white;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px; 
+}
+.three{
+    background-color: black;
+    color: white;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 10%;
+    font-size: 16px;
+}
+button:hover {
+    background-color: chocolate;
+}
+
+@media (max-width: 768px) {
+    .B, .e, .E, .F {
+      flex-direction: column;
+      align-items: center;
+    }
+    input[type="text"], input[type="email"], textarea {
+      width: 90%;
+    }
+}
+footer.J {
+    background-color:black;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: left;
+
+}
+
+footer .j {
+    flex: 1 1 200px;
+    color: #fff;
+    border-radius: 15px;
+}
+.footer-text{
+    color: #fff;
+}
+#nn{
+    color: #fff;
+}
+.ch{
+    font-size: 40px;
+}
+.gg{
+    height: 30px;
+    width: 300px;
+    border-radius: 13px;
+    border: 2px solid white;
+}
+.aa{
+    color: #fff;
+} 
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Shivam IT Technologies</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <img src="img/img1.png" alt="Company Logo" width="50px">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="submit">Call Us</button>
+    </header>
+    <section class="K">
+        <div class="k">
+            <h1 class="L">About Shivam IT</h1>
+            <p>Shivam IT Technologies is a dynamic and<br> forward-thinking software development company committed<br> to delivering innovative, reliable, and scalable IT solutions.<br> Founded with a passion for technology and a drive for excellence,<br> we specialize in crafting tailored software applications, digital platforms, <br>and enterprise-grade systems that empower <br>businesses to grow and succeed in the<br> digital era.</p><br>
+            <p>We blend deep industry knowledge with <br>advanced technology to provide end-to-end solutions <br>that align with your business goals.<br> Whether it’s web development, mobile applications, cloud <br>services, or digital transformation, our team of<br> skilled professionals ensures quality,<br> performance, and innovation at every stage.</p><br>
+            <p>We believe in building long-term relationships <br>with our clients by being transparent,<br> responsive, and results-driven. At Shivam IT<br> Technologies, we’re not just building software—we’re<br> building trust, progress, and a smarter future,</p><br><br>
+        </div>
+        <div class="kk">
+            <img   src="img/img8.avif" alt="Team working"  width="45%" height="50%">
+            <img   src="img/img9.avif" alt="Office environment" width="45%" height="50%">
+        </div>
+    </section>
+    <section class="about-section">
+       
+        <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Experienced team of developers and designers</li>
+                <li>Client-focused approach</li>
+                <li>Timely delivery and robust support</li>
+                <li>Innovative and reliable solutions</li>
+            </ul>
+    </section>
+    <section >
+        <h1 class="M">Vision & Mission: Building Tomorrow, Today</h1>
+        <div class="l">
+        <div class="m">
+            <h3>Our vision</h3>
+            <ul>
+                <li>To be a leading global provider of innovative <br>and reliable software solutions.</li>
+                <li>To empower businesses through cutting-edge technology<br> and digital transformation.</li>
+                <li>To drive growth and success for our clients by <br>delivering high-impact IT services.</li>
+                <li>To build a future where technology and people come together <br>to create sustainable solutions.</li>
+            </ul>
+        </div>
+        <div class="m">
+            <h3>Our Mission</h3>
+            <ul>
+                <li>To deliver high-quality, customized software solutions that<br> solve real business challenges.</li>
+                <li>To continuously innovate with emerging technologies<br> like AI, Cloud, and Automation.</li>
+                <li>To provide exceptional customer service and <br>long-term partnerships built on trust.</li>
+                <li>To nurture a culture of excellence, learning,<br> and growth for our team and clients.</li>
+            </ul>
+        </div>
+    </div>
+    </section>
+        <img src="img/img10.avif" alt="Teamwork and innovation at Shivam IT"><br>
+    <section class="location">
+        <div class="loc1">
+        <h2>Our Location</h2>
+        <p>Located in Hyderabad, we offer exceptional IT services for design, development, and digital marketing tailored to meet client needs.</p>
+        <h4>Hyderabad</h4>
+        <p>Shivam IT Technologies, Hyderabad</p>
+        <h5>Hours</h5>
+        <p>9 AM - 6 PM</p>
+    </div>
+    
+    <div class="loc2">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=..."
+          width="700"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+      </section><br><br>
+      <section class="N">
+            <div class="n">
+                <p>★★★★★<br><br>Shivam IT Technologies delivered exceptional <br>service,transforming our ideas <br>into a stunning web application seamlessly.</p>
+                <img  class="s" src="img/img11.avif" >
+                <p>Tech Innovators</p>
+            </div>
+            <div class="n">
+                <p>★★★★★<br><br>The team at Shivam IT Technologies exceeded our<br> expectations with their professionalism <br>and expertise in digital marketing.</p>
+                <img  class="s" src="img/img12.avif"  >
+                <p>Marketing Guru</p>
+            </div>
+      </section>
+    <footer class="J">
+        <div class="j">
+          <h3>Innovative</h3>
+          <p class="footer-text">Leading IT services for design and development.</p><br><br>
+          <p class="footer-text">© 2025. All rights reserved. Powered by <a  id="ll" href="https://novelsky.tech/">NOVELSKY.TECH</a></p>
+        </div>
+        <div class="j">
+          <h3>Connect</h3>
+          <p class="footer-text">+91 70756 99181</p><br>
+          <a  class="tt" href="shivamittechnologies@gmail.com">shivamittechnologies@gmail.com</a>
+        </div>
+        <div class="j">
+          <h3>Support</h3>
+          <form>
+            <label for="support-email">Your Email Address*</label>
+            <input class="rr" type="email" id="support-email" name="email" placeholder="Enter your email address"><br><br>
+            <button class="one" type="submit">Submit Your Inquiry</button>
+          </form>
+        </div>
+    </footer>
+</body>
+</html>
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav a{
+    color:black;
+    text-decoration:none;
+}
+button{
+    background-color: black;
+    color: white;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 10%;
+    font-size: 16px;
+}
+
+.L{
+    font-size: 50px;
+}
+.K{
+
+    display:flex;
+
+}
+.k{
+
+  
+    gap: 1rem;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+img{
+    border-radius: 13px;
+}
+
+.about-section {
+    padding: 100px;
+    max-width: 800px;
+    margin: auto;
+   
+}
+.about-section h2 {
+    color: black;
+    font-size: 40px;
+}
+.about-section ul {
+    list-style: disc;
+    padding-left: 500px;
+    display: inline-block;
+    
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .K, .about-wrapper {
+        padding: 1rem;
+    }
+
+    .about-section {
+        padding: 1rem;
+    }
+
+    .footer-columns, .M, .m {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button.small {
+        width: auto;
+    }
+}
+@media (max-width: 768px) {
+    .footer-columns, .M, .m {
+      flex-direction: column;
+      align-items: center;
+    }
+}
+footer.J {
+    background-color:black;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: left;
+}
+
+footer .j {
+    flex: 1 1 200px;
+    color: #f1f1f1;
+    border-radius: 15px;
+}
+.footer-text{
+    color: #f1f1f1;
+}
+.one{
+    background-color:chocolate;
+    color: white;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px; 
+}
+.location {
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-family: sans-serif;
+    display: flex;
+    gap: 7rem;
+    width: 110%;
+}
+
+.N{
+    display: flex;
+    text-align: center;
+}
+.n{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    flex: 1;
+    padding: 40px;
+    display: inline-flex;
+}
+.s{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.l{
+    display: inline-flex;
+}
+.M{
+    font-size: 40px;
+   
+}
+.l{
+    gap: 15rem;
+}
+#ll{
+    color: #f1f1f1;
+}
+.rr{
+    height: 30px;
+    width: 300px;
+    border-radius: 13px;
+    border: 2px solid white;
+}
+.tt{
+    color: #f1f1f1;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services | Shivam IT Technologies</title>
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+    <header>
+        <img src="img/img1.png" alt="Company Logo" width="50px">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="submit">Call Us</button>
+    </header>
+    <div class="D">
+        <h1 class="d">Our Services</h1>
+        <p>Comprehensive IT solutions for design,development,testing and<br>deployment tailored to your needs</p>
+    </div>
+    <section class="S">
+        <div class="x">
+            <h3>Website Development</h3>
+            <p>We create responsive, fast, and SEO-friendly websites<br> tailored to your business needs. From corporate websites <br>to landing pages and eCommerce portals, we ensure a <br>strong online presence with a modern user experience.</p>
+            <img src="img/img13.avif">
+        </div>
+        <div class="x">
+            <h3>Web App Development</h3>
+            <p>Our web applications are built for performance, scalability,<br> and security. Whether it's a custom dashboard, portal, or <br>business tool, we turn ideas into powerful web-based <br>solutions.</p>
+            <img src="img/img21.avif">
+        </div>
+    </section><br><br>
+    <section class="X">
+        <div class="z">
+            <h3>Application Development</h3>
+            <p>From mobile apps to cross-platform solutions, we develop <br>intuitive and feature-rich applications that deliver<br> seamless experiences on Android, iOS, and <br>hybrid platforms.</p>
+            <img src="img/img15.avif">
+        </div>
+        <div class="z">
+            <h3>Software Development</h3>
+            <p>We specialize in developing custom software solutions<br> that solve complex business problems. From enterprise<br> systems to automation tools, we ensure robust <br>functionality and smooth integration with your existing <br>systems.</p>
+            <img src="img/img16.avif">
+        </div>
+    </section><br><br>
+    <section class="Z">
+        <div class="u">
+            <h3>Digital Marketing Services</h3>
+            <p>Grow your brand online with our strategic digital marketing<br> services. We offer SEO, social media marketing,<br> PPC, content marketing, and email campaigns to help you<br> reach and engage your target audience</p>
+            <img src="img/img17.avif">
+        </div>
+        <div class="u">
+            <h3>Recruitment Services</h3>
+            <p>We bridge the talent gap by connecting businesses with <br>skilled professionals. Our recruitment solutions are <br>tailored to find the right fit for your technical and non<br>-technical hiring needs,quickly and efficiently</p>
+            <img src="img/img18.avif">
+        </div>
+    </section><br><br>
+    <section class="R">
+        <div class="r">
+            <p>★★★★★<br><br>Shivam IT Technologies delivered exceptional service and exceeded our <br>expectations in web development and design.</p>
+            <img  class="s" src="img/img19.avif" width="30%">
+            <p>Ravi Kumar</p>
+        </div>
+        <div class="r">
+            <p>★★★★★<br><br>Their team is highly skilled and provided us with innovative solutions for our <br>digital marketing needs.</p>
+            <img  class="s" src="img/img20.avif" width="30%"  >
+            <p>Anita Rao</p>
+        </div>
+  </section>
+    <footer class="J">
+        <div class="j">
+          <h3>Innovative</h3>
+          <p class="footer-text">Leading IT services for design and development.</p><br><br>
+          <p class="footer-text">© 2025. All rights reserved. Powered by <a  id="vv" href="https://novelsky.tech/">NOVELSKY.TECH</a></p>
+        </div>
+        <div class="j">
+          <h3>Connect</h3>
+          <p class="footer-text">+91 70756 99181</p><br>
+          <a  class="xx" href="shivamittechnologies@gmail.com">shivamittechnologies@gmail.com</a>
+        </div>
+        <div class="j">
+          <h3>Support</h3>
+          <form>
+            <label for="support-email">Your Email Address*</label>
+            <input  class="ff" type="email" id="support-email" name="email" placeholder="Enter your email address"><br><br>
+            <button class="four" type="submit">Submit Your Inquiry</button>
+          </form>
+        </div>
+        </footer>
+</body>
+</html>
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav a{
+    color:black;
+    text-decoration:none;
+}
+button{
+    background-color: black;
+    color: white;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 10%;
+    font-size: 16px;  
+}
+
+.D{
+    text-align: center;
+   
+}
+.d{
+    font-size: 60px;
+     color:black;
+}
+footer.J {
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: left;
+}
+
+footer .j {
+    flex: 1 1 200px;
+    border-radius: 15px;
+    color: #f1f1f1;
+}
+.footer-text{
+    color: #f1f1f1;
+}
+.ff{
+    height: 30px;
+    width: 300px;
+    border-radius: 13px;
+    border: 2px solid white;
+}
+.four{
+    background-color:chocolate;
+    color: white;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px; 
+}
+.button:hover{
+    background-color: chocolate;
+}
+.h3{
+    color: #f1f1f1;
+}
+.R{
+    display: flex;
+    text-align: center;
+}
+.r{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+        flex: 1;
+        padding: 40px;
+        display: inline-flex;
+}
+.s{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.S{
+       
+        display :flex;
+        flex-direction: row;
+        
+}
+.X{
+    
+    display :flex;
+    flex-direction: row;
+}
+.Z{
+    
+    display :flex;
+    flex-direction: row; 
+}
+.x, .z, .u {
+    border-radius: 15px;
+    color:black;
+    margin: 20px;
+    border: 2px solid white;
+    background-color:rgb(255, 191, 0);
+    padding-left: 7px;
+}
+  
+.x img, .z img, .u img {
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+}
+@media (max-width: 768px) {
+    .x, .z, .u {
+      flex-direction: column;
+      text-align: center;
+    }
+    .x img, .z img, .u img {
+      width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+}
+#vv{
+    color: #f1f1f1;
+}  
+.xx{
+   color: #f1f1f1;
+}
+  
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers|Shivam IT Technologies</title>
+    <link rel="stylesheet" href="career.css">
+</head>
+<body>
+    <header>
+    <img src="img/img1.png" alt="company logo" width="50px">
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <button type="small">Call Us</button>
+    </header>
+    <section class="U">
+        <h1 class="z1">Join Our Team</h1>
+        <p>Be part of innovative IT solutions in design, development, <br>and digital marketing at Shivam IT Technologies.</p>
+    </section><br><br>
+    <section class="V">
+        <h2 class="u1">Join Our Team</h2>
+        <p>Explore Exciting Career Opportunities</p><hr><br>
+        <div class="v">
+            <h2>UI/ UX Designer</h2>
+            <button class="button">Apply </button>
+        </div><hr>
+        <div class="v">
+            <h2>Full Stack Developers</h2>
+            <button class="button">Apply </button>
+        </div><hr>
+        <div class="v">
+            <h2>Test Engineers</h2>
+            <button class="button">Apply </button>
+        </div><hr>
+        <div class="v">
+            <h2>DEVOPS AWS/AZURE/GCP</h2>
+            <button class="button">Apply </button>
+        </div><hr>
+        <div class="v">
+            <h2>Digital Marketer</h2>
+            <button class="button">Apply </button>
+        </div><hr>
+        <div class="v">
+            <h2>HR Recruiter</h2>
+            <button class="button">Apply </button>
+        </div><hr>
+        <div class="v">
+            <h2>Business Developer</h2>
+            <button class="button">Apply </button>
+        </div><hr>
+        <div class="v">
+            <h2>Sales & Marketers</h2>
+            <button class="button">Apply </button>
+        </div><hr>
+    </section><br><br>
+    <section class="a">
+          <h2 class="a1">Join Our Innovative Team Today</h2>
+          <p>Explore exciting career opportunities at<br> Shivam IT Technologies now.</p><br>
+    </section>
+    <section class="CC">
+          <form class="dd">
+                <label for="name"> Your First Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your first name"><br><br>
+                <label for="email"> Your Email Address*</label>
+                <input type="text" name="email" id="email-support" placeholder="Enter your email address"><br><br>
+                <label for="message">Your message</label>
+                <textarea id="message" name="message" placeholder="Enter text here..."></textarea><br>
+                <button  class="six" type="submit">Submit Your Inquiry</button>
+          </form><br>
+        
+          <img src="img/img22.avif" width="40%" height="40%">
+    </section><br><br>
+    <footer class="J">
+        <div class="j">
+          <h3>Innovative</h3>
+          <p class="footer-text">Leading IT services for design and development.</p><br><br><br>
+          <p class="footer-text">© 2025. All rights reserved. Powered by <a  id="cc" href="https://novelsky.tech/">NOVELSKY.TECH</a></p>
+        </div>
+        
+        <div class="j">
+          <h3>Connect</h3>
+          <p class="footer-text">+91 70756 99181</p><br>
+          <a  class="zz" href="shivamittechnologies@gmail.com">shivamittechnologies@gmail.com</a>
+        </div>
+        <div class="j">
+          <h3>Support</h3>
+          <form>
+            <label for="support-email">Your Email Address*</label>
+            <input class="hh" type="email" id="support-email" name="email" placeholder="Enter your email address"><br><br>
+            <button  class="five" type="button">Submit Your Inquiry</button>
+          </form>
+        </div>
+    </footer>
+</body>
+</html>
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-family: sans-serif;
+}
+header{
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav a{
+    color:black;
+    text-decoration:none;
+}
+button{
+    background-color: black;
+    color: white;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 10%;
+    font-size: 16px;  
+}
+.six{
+    background-color: chocolate;
+    width: 50%;
+    height: 10%;
+    color: #f1f1f1;
+}
+.U{
+    text-align: center;
+    border: 7px;
+}
+.z1{
+    font-size: 60px;
+}
+.V{
+    text-align: center;
+    background-color: rgb(1, 1, 50);
+    padding-left: 80px;
+    padding-right: 80px;
+    color: #f1f1f1;
+}
+.u1{
+    font-size: 40px;
+}
+.v{
+   color: #f1f1f1;
+   font-size: 15px;
+   display: flex;
+   justify-content: space-between;
+}
+button {
+    width: 150px;
+    background: rgba(0, 89, 255, 0.874); 
+    border-radius: 50px;
+    height: 50px;
+}
+
+button:hover {
+    background-color: chocolate;
+    height: 50px;
+}
+.a{
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid chocolate;
+    border-radius: 15px;
+}
+textarea{
+    height: 130px;
+}
+footer.J {
+    background-color:black;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: left;
+}
+
+footer .j {
+    flex: 1 1 200px;
+    border-radius: 15px;
+    color: #f1f1f1;
+}
+.footer-text{
+    color: #f1f1f1;
+}
+.h3{
+    color: #f1f1f1;
+}
+.five{
+    background-color: chocolate;
+    color: white;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+}
+.button:hover{
+    background-color:chocolate;
+}
+.a1{
+    font-size: 50px;
+}
+#cc{
+   color: #f1f1f1;
+}
+.CC{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.dd{
+    border: 2px solid;
+    width: 500px;
+    height: 400px;
+    background-color: orange;
+}
+.form{
+    color: black;
+    align-items: center;
+    border: 2px;
+    width: 500px;
+    height: 400px;
+    border-radius: 8px;
+    padding: 20px;
+}
+.hh{
+    height: 30px;
+    width: 300px;
+    border-radius: 13px;
+    border: 2px solid white;
+}
+.zz{
+    color: #f1f1f1;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Shivam IT Technologies</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <img src="img/img1.png" alt="Company Logo" width="50px">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="careers.html">Careers</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="submit">Call Us</button>
+    </header>
+    <section class="b1">
+        <h1 class="b2">Contact Us Today</h1>
+        <p>Get in touch for IT solutions, web development, and digital marketing<br> services tailored for your needs.</p>
+    </section><br><br>
+    <section class="location">
+      <div class="loc1">
+        <h2>Contact Us</h2>
+        <p>Reach out to Shivam IT Technologies for top-notch IT services including design, development,<br> and digital marketing solutions tailored for your business needs.</p>
+        <h4>Location</h4>
+        <p> Hyderabad ,Telangana,India</p>
+        <h5>Hours</h5>
+        <p>9 AM - 6 PM</p>
+    </div>
+    
+      <div class="loc2">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=..."
+          width="600"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      </section><br><br>
+      <section class="H">
+        <h1 class="h">Contact Us</h1>
+        <p class="p1">Get in touch for IT services and solutions in Hyderabad.</p>
+        <div class="I">
+            <form>
+                <label for="name"> Your First Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your first name"><br><br>
+                <label for="email"> Your Email Address*</label>
+                <input type="text" name="email" id="email-support" placeholder="Enter your email address"><br><br>
+                <label for="message">Your message</label>
+                <textarea id="message" name="message" placeholder="Enter text here..."></textarea><br>
+                <button class="nine" type="submit">Submit Your Inquiry</button>
+            </form>
+        </div>
+    </section><br><br>
+    <footer class="J">
+        <div class="j">
+          <h3>Innovative</h3>
+          <p class="footer-text">Leading IT services for design and development.</p><br><br><br>
+          <p class="footer-text">© 2025. All rights reserved. Powered by <a  id="bb" href="https://novelsky.tech/">NOVELSKY.TECH</a></p>
+        </div>
+        
+        <div class="j">
+          <h3>Connect</h3>
+          <p class="footer-text">+91 70756 99181</p><br>
+          <a  class="jj" href="shivamittechnologies@gmail.com">shivamittechnologies@gmail.com</a>
+        </div>
+        <div class="j">
+          <h3>Support</h3>
+          <form>
+            <label for="support-email">Your Email Address*</label>
+            <input  class="ee" type="email" id="support-email" name="email" placeholder="Enter your email address"><br><br>
+            <button class="seven" type="submit">Submit Your Inquiry</button>
+          </form>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-family: sans-serif;
+}
+header{
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav a{
+    color:black;
+    text-decoration:none;
+}
+button{
+    background-color: black;
+    color: white;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 10%;
+    font-size: 16px;
+}
+.nine{
+    background-color: chocolate;
+    border-radius: 18px;
+    width: 20%;
+    height: 20%;
+}
+.b1{
+    text-align: center;
+}
+.b2{
+    font-size: 50px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid chocolate;
+    border-radius: 15px;
+}
+textarea{
+    height: 120px;
+}
+.location {
+    background-color: #f0f0f0;
+    padding: 20px;
+    font-family: sans-serif;
+    display: flex;
+    gap: 2rem;
+    width: 110%;
+}
+
+.H{
+    text-align: center;
+    background-image: url("images/image.png");
+}
+.h{
+    font-size: 30px;
+}
+footer.J {
+    background-color:black;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: left;
+}
+footer .j {
+    flex: 1 1 200px;
+    border-radius: 15px;
+    color: #f0f0f0;
+}
+.footer-text{
+    color: #f0f0f0;
+}
+.seven{
+    background-color:chocolate;
+    color: white;
+    padding:  10px 20px;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px; 
+}
+.button:hover{
+    background-color: #f0f0f0;
+}
+#bb{
+    color: #f0f0f0;
+}
+.ee{
+    height: 30px;
+    width: 500px;
+    border-radius: 13px;
+    border: 2px solid white;
+}
+.jj{
+    color: #f0f0f0;
+}
